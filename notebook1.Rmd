@@ -1,0 +1,66 @@
+---
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .Rmd
+      format_name: rmarkdown
+      format_version: '1.2'
+      jupytext_version: 1.14.4
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
+---
+
+```{python}
+# %autosave 0
+```
+
+```{python}
+import numpy as np
+import matplotlib.pyplot as plot
+```
+
+```{python}
+# Get x values of the sine wave
+time = np.arange(0, 10, 0.1);
+```
+
+```{python}
+# Amplitude of the sine wave is sine of a variable like time
+amplitude   = np.sin(time)
+```
+
+```{python}
+# Give a title for the sine wave plot
+plot.title('Sine wave')
+
+# Plot a sine wave using time and amplitude obtained for the sine wave
+plot.plot(time, amplitude)
+```
+
+```{python}
+a = 10
+```
+
+```{python}
+b = 11
+```
+
+```{python}
+c = a^2 + b^2
+c
+```
+
+```{python}
+import math
+```
+
+```{python}
+math.sqrt(c)
+```
+
+```{python}
+c.NotebookApp.contents_manager_class="jupytext.TextFileContentsManager"
+c.ContentsManager.default_jupytext_formats = ".ipynb,.Rmd"
+```
