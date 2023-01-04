@@ -13,10 +13,15 @@ jupyter:
 ---
 
 ```{python}
-def sump(a,b):
-    return a+b
+from ipynb.fs.full.sum import sump
 ```
 
 ```{python}
+a = 10
+b = 11
+sump(a,b)
+```
 
+```{python}
+#add
 ```
